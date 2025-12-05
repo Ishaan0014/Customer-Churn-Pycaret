@@ -6,7 +6,7 @@
 
 This project utilizes **PyCaret**, an open-source, low-code machine learning library in Python, to predict customer churn for a bank. The goal is to identify customers who are likely to leave the bank (`Exited = 1`) based on their demographic and financial activity.
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is a critical metric for banking institutions. Retaining existing customers is often more cost-effective than acquiring new ones. This project automates the machine learning workflow to find the best model for predicting churn.
 
@@ -14,7 +14,7 @@ Customer churn is a critical metric for banking institutions. Retaining existing
 * **Best Model Selected:** Extra Trees Classifier
 * **Final Accuracy:** ~92.3%
 
-## 📂 Dataset
+## Dataset
 
 The dataset (`Churn_Modelling.csv`) contains details of bank customers. Key features include:
 
@@ -22,14 +22,14 @@ The dataset (`Churn_Modelling.csv`) contains details of bank customers. Key feat
 * **Financials:** Credit Score, Balance, Estimated Salary.
 * **Engagement:** Tenure, Number of Products, Has Credit Card, Is Active Member.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **PyCaret** (AutoML)
 * **Pandas** (Data Manipulation)
 * **Matplotlib** (Visualization)
 
-## ⚙️ Methodology
+## Methodology
 
 1.  **Data Loading:** Ingesting the customer dataset.
 2.  **Preprocessing:**
@@ -39,7 +39,7 @@ The dataset (`Churn_Modelling.csv`) contains details of bank customers. Key feat
 4.  **Tuning:** Attempted hyperparameter tuning (base model performed optimally).
 5.  **Finalization:** The model was finalized and tested on a hold-out test set.
 
-## 📊 Results
+## Results
 
 The model performance on the held-out test set was exceptional:
 
@@ -63,7 +63,7 @@ The project includes key visualizations to understand model performance:
 *(Identifies which factors contribute most to churn)*
 ![Feature Importance](Feature%20Importance%20Plot.png)
 
-## 🚀 How to Run
+## How to Run
 
 1.  **Clone the repository:**
     ```bash
@@ -80,6 +80,6 @@ The project includes key visualizations to understand model performance:
 
 ## 👤 Author
 
-**Ishaan Vashisth**
-Department of Computer Science and Engineering
+**Ishaan Vashisth**<br>
+Department of Computer Science and Engineering<br>
 Thapar Institute of Engineering and Technology
